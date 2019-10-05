@@ -2,7 +2,7 @@
 
 ## Summer Work
 1. Age Calculator
-  a. Code
+    1a. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Age_Calculator.m)
 
 ## Matrix Unit
 1. Creating Arrays
