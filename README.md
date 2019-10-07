@@ -2,7 +2,7 @@
 ## MATLAB
 ### Summer Work
 1. 1DK Projectiles
-    1. [Code]()
+    1. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Projectile_1D.m)
 2. Age Calculator
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Age_Calculator.m)
 
