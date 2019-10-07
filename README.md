@@ -1,8 +1,10 @@
 # Engineering Academy 3
 ## MATLAB
 ### Summer Work
-1. Age Calculator
-    1. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Age_Calculator.m)
+1. 1DK Projectiles
+    1. [Code]()
+2. Age Calculator
+    2. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Age_Calculator.m)
 
 ### Matrix Unit
 1. Creating Arrays
