@@ -1,12 +1,11 @@
-# Engineering Academy 3
-## MATLAB
-### Summer Work
+# MATLAB
+## Summer Work
 1. 1DK Projectiles
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Projectile_1D.m)
 2. Age Calculator
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Summer_Work/Age_Calculator.m)
 
-### Matrix Unit
+## Matrix Unit
 1. Creating Arrays
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Matrix_Unit/Creating_Arrays.m)
     2. [Variables](https://github.com/jhaberland/EA3/blob/master/Matrix_Unit/Creating_Arrays.mat)
@@ -21,7 +20,7 @@
 5. Working With Strings
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Matrix_Unit/Working_with_Strings.m)
 
-### Visualizing Data
+## Visualizing Data
 1. The Plot Function
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Visualizing_Data/The_Plot_Function.mlx)
     2. [Variables](https://github.com/jhaberland/EA3/blob/master/Visualizing_Data/The_Plot_Function.mat)
