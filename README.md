@@ -29,3 +29,5 @@
     2. [Variables](https://github.com/jhaberland/EA3/blob/master/Visualizing_Data/Associated_Plot_Functions.mat)
 3. Associated Plot Functions - Program
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Visualizing_Data/Associated_Plot_Functions_Program.m)
+4. Two Dimensional Projectile - Program
+    1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Visualizing_Data/Two_Dimensional_Projectile.m)
