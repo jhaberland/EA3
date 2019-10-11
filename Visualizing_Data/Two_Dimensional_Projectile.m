@@ -81,7 +81,7 @@ Xy = (.5*-VA*tAirVec.^2) + (Viy*tAirVec) + IVP;
 Xx = Vix*tAirVec;
 
 % Vertical Velocity Equation
-Vy = VA*tAirVec + Vix;
+Vy = VA*tAirVec + Viy;
 
 
 % Outputs
