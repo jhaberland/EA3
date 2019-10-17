@@ -31,3 +31,14 @@
     1. [Code](https://github.com/jhaberland/EA3/blob/master/Visualizing_Data/Associated_Plot_Functions_Program.m)
 4. Two Dimensional Projectile - Program
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Visualizing_Data/Two_Dimensional_Projectile.m)
+
+## Flow Control
+1. The if and switch Structures
+    1. [Code]()
+    2. [Variables]()
+2. for Loops
+    1. [Code]()
+    2. [Variables]()
+3. while Loops
+    1. [Code]()
+    2. [Variables]()
