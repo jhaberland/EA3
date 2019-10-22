@@ -35,7 +35,6 @@
 ## Flow Control
 1. The if and switch Structures
     1. [Code]()
-    2. [Variables]()
 2. for Loops
     1. [Code]()
     2. [Variables]()
