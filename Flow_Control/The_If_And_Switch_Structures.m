@@ -40,51 +40,51 @@
 % ------------------------------------------------------------------------
 
 
-% % Input
-% 
-% Shape = input("Input the number of the shape you want to calculate the are for:\n\n1. Rectangle\n2. Square\n3. Equilateral Triangle\n4. Circle");
-% 
-% % Rectangle
-% if Shape == 1
-%     RecLength = input('What is the desired length of the rectangle?');
-%     RecWidth = input('What is the desired width of the rectangle?');
-%     
-%     RecArea = RecWidth*RecLength;
-%     RecPerimeter = 2*(RecLength+RecWidth);
-%     
-%     fprintf('The area of your rectangle is %5.1f.\nThe perimiter of your rectangle is %5.1f',RecArea,RecPerimeter)
-%     
-% % Square
-% elseif Shape == 2
-%     SqrSide = input('What is the desired side length of the square?');
-%     
-%     SqrArea = SqrSide^2;
-%     SqrPerimeter = SqrSide*4;
-%     
-%     fprintf('The area of your square is %5.1f.\nThe perimiter of your square is %5.1f',SqrArea,SqrPerimeter)
-% 
-% % Equilateral Triangle
-% elseif Shape == 3
-%     TriSide = input('What is the desired side length of the equilateral triangle?');
-%     
-%     TriArea = (sqrt(3)/4)*(TriSide^2);
-%     TriPerimeter = TriSide*3;
-%     
-%     fprintf('The area of your equilateral triangle is %5.1f.\nThe perimiter of your equilateral triangle is %5.1f',TriArea,TriPerimeter)
-% 
-% % Circle
-% elseif Shape == 4
-%     CirRadius = input('What is the radius of the circle?');
-%     
-%     CirArea = pi*CirRadius^2;
-%     CirPerimeter = 2*pi*CirRadius;
-%     
-%     fprintf('The area of your circle is %5.1f.\nThe circumference of your circle is %5.1f',CirArea,CirPerimeter)
-% 
-% % Invalid Shape
-% else
-%     disp('That is not a valid shape')
-% end
+% Input
+
+Shape = input("Input the number of the shape you want to calculate the are for:\n\n1. Rectangle\n2. Square\n3. Equilateral Triangle\n4. Circle");
+
+% Rectangle
+if Shape == 1
+    RecLength = input('What is the desired length of the rectangle?');
+    RecWidth = input('What is the desired width of the rectangle?');
+    
+    RecArea = RecWidth*RecLength;
+    RecPerimeter = 2*(RecLength+RecWidth);
+    
+    fprintf('The area of your rectangle is %5.1f.\nThe perimiter of your rectangle is %5.1f',RecArea,RecPerimeter)
+    
+% Square
+elseif Shape == 2
+    SqrSide = input('What is the desired side length of the square?');
+    
+    SqrArea = SqrSide^2;
+    SqrPerimeter = SqrSide*4;
+    
+    fprintf('The area of your square is %5.1f.\nThe perimiter of your square is %5.1f',SqrArea,SqrPerimeter)
+
+% Equilateral Triangle
+elseif Shape == 3
+    TriSide = input('What is the desired side length of the equilateral triangle?');
+    
+    TriArea = (sqrt(3)/4)*(TriSide^2);
+    TriPerimeter = TriSide*3;
+    
+    fprintf('The area of your equilateral triangle is %5.1f.\nThe perimiter of your equilateral triangle is %5.1f',TriArea,TriPerimeter)
+
+% Circle
+elseif Shape == 4
+    CirRadius = input('What is the radius of the circle?');
+    
+    CirArea = pi*CirRadius^2;
+    CirPerimeter = 2*pi*CirRadius;
+    
+    fprintf('The area of your circle is %5.1f.\nThe circumference of your circle is %5.1f',CirArea,CirPerimeter)
+
+% Invalid Shape
+else
+    disp('That is not a valid shape')
+end
 
 %% Density Calculations
 %   Filename: The_If_And_Switch_Structures.m
@@ -123,77 +123,77 @@
 % ------------------------------------------------------------------------
 
 
-% Element = input("Enter the number of the material being used: \n\n1. Hydrogen (gas)\n2. Helium (gas)\n3. Nitrogen (gas)\n4. Benzene (liquid)\n5. Ethanol (liquid)\n6. Mercury (liquid)\n7. Magnesium (solid)\n8. Copper (solid)\n9. Gold (solid)");
-% MUnits = input('Enter the number for the type units being used for mass\n\n1. Kilograms (kg)\n2. Grams (g)\n3. Milligram (mg)');
-% VUnits = input('Enter the number for the type units being used for volume\n\n1. Meters^3 (m^3)\n2. Centimeters^3 (cm^3)\n3. Millimeters (mm^3)\n4. Liters (L)\n5. Milliliters (mL)');
-% 
-% switch Element
-%     
-%     case 1
-%         ElementDensity = 0.00009;
-%         ElementName = 'Hydrogen (gas)';
-%     case 2
-%         ElementDensity = 0.000178;
-%         ElementName = 'Helium (gas)';
-%     case 3
-%         ElementDensity = 0.001251;
-%         ElementName = 'Nitrogen (gas)';
-%     case 4
-%         ElementDensity = 0.900;
-%         ElementName = 'Benzene (liquid)';
-%     case 5
-%         ElementDensity = 0.810;
-%         ElementName = 'Ethanol (liquid)';
-%     case 6
-%         ElementDensity = 13.6;
-%         ElementName = 'Mercury (liquid)';
-%     case 7
-%         ElementDensity = 1.7;
-%         ElementName = 'Magnesium (solid)';
-%     case 8
-%         ElementDensity = 8.3;
-%         ElementName = 'Copper (solid)';
-%     case 9
-%         ElementDensity = 19.3;
-%         ElementName = 'Gold (solid)';
-%         
-% end
-% 
-% 
-% switch VUnits
-%     
-%     case 1
-%         EDV = ElementDensity*1000000;
-%         VUnits = 'm^3';
-%     case 2
-%         EDV = ElementDensity;
-%         VUnits = 'cm^3';
-%     case 3
-%         EDV = ElementDensity*0.001;
-%         VUnits = 'mm^3';
-%     case 4
-%         EDV = ElementDensity*1000;
-%         VUnits = 'L';
-%     case 5
-%         EDV = ElementDensity;
-%         VUnits = 'mL';
-% end
-% 
-% 
-% switch MUnits
-%     
-%     case 1
-%         DFinal = EDV/1000;
-%         MUnits = 'kg';
-%     case 2
-%         DFinal = EDV;
-%         MUnits = 'g';
-%     case 3
-%         DFinal = EDV*1000;
-%         MUnits = 'mg';
-% end
-% 
-% fprintf('%s has a density of %5.2f %s/%s',ElementName,DFinal,MUnits,VUnits)
+Element = input("Enter the number of the material being used: \n\n1. Hydrogen (gas)\n2. Helium (gas)\n3. Nitrogen (gas)\n4. Benzene (liquid)\n5. Ethanol (liquid)\n6. Mercury (liquid)\n7. Magnesium (solid)\n8. Copper (solid)\n9. Gold (solid)");
+MUnits = input('Enter the number for the type units being used for mass\n\n1. Kilograms (kg)\n2. Grams (g)\n3. Milligram (mg)');
+VUnits = input('Enter the number for the type units being used for volume\n\n1. Meters^3 (m^3)\n2. Centimeters^3 (cm^3)\n3. Millimeters (mm^3)\n4. Liters (L)\n5. Milliliters (mL)');
+
+switch Element
+    
+    case 1
+        ElementDensity = 0.00009;
+        ElementName = 'Hydrogen (gas)';
+    case 2
+        ElementDensity = 0.000178;
+        ElementName = 'Helium (gas)';
+    case 3
+        ElementDensity = 0.001251;
+        ElementName = 'Nitrogen (gas)';
+    case 4
+        ElementDensity = 0.900;
+        ElementName = 'Benzene (liquid)';
+    case 5
+        ElementDensity = 0.810;
+        ElementName = 'Ethanol (liquid)';
+    case 6
+        ElementDensity = 13.6;
+        ElementName = 'Mercury (liquid)';
+    case 7
+        ElementDensity = 1.7;
+        ElementName = 'Magnesium (solid)';
+    case 8
+        ElementDensity = 8.3;
+        ElementName = 'Copper (solid)';
+    case 9
+        ElementDensity = 19.3;
+        ElementName = 'Gold (solid)';
+        
+end
+
+
+switch VUnits
+    
+    case 1
+        EDV = ElementDensity*1000000;
+        VUnits = 'm^3';
+    case 2
+        EDV = ElementDensity;
+        VUnits = 'cm^3';
+    case 3
+        EDV = ElementDensity*0.001;
+        VUnits = 'mm^3';
+    case 4
+        EDV = ElementDensity*1000;
+        VUnits = 'L';
+    case 5
+        EDV = ElementDensity;
+        VUnits = 'mL';
+end
+
+
+switch MUnits
+    
+    case 1
+        DFinal = EDV/1000;
+        MUnits = 'kg';
+    case 2
+        DFinal = EDV;
+        MUnits = 'g';
+    case 3
+        DFinal = EDV*1000;
+        MUnits = 'mg';
+end
+
+fprintf('%s has a density of %5.2f %s/%s',ElementName,DFinal,MUnits,VUnits)
 
 
 %% Perimiter and Area Calculations using only switch/case/otherwise
@@ -238,50 +238,50 @@
 % ------------------------------------------------------------------------
 
 
-% % Input
-% 
-% Shape = input("Input the number of the shape you want to calculate the are for:\n\n1. Rectangle\n2. Square\n3. Equilateral Triangle\n4. Circle");
-% 
-% switch Shape
-% % Rectangle
-%     case 1
-%         RecLength = input('What is the desired length of the rectangle?');
-%         RecWidth = input('What is the desired width of the rectangle?');
-%     
-%         RecArea = RecWidth*RecLength;
-%         RecPerimeter = 2*(RecLength+RecWidth);
-%     
-%         fprintf('The area of your rectangle is %5.1f.\nThe perimiter of your rectangle is %5.1f',RecArea,RecPerimeter)
-%     
-% % Square
-%     case 2
-%         SqrSide = input('What is the desired side length of the square?');
-%     
-%         SqrArea = SqrSide^2;
-%         SqrPerimeter = SqrSide*4;
-%     
-%         fprintf('The area of your square is %5.1f.\nThe perimiter of your square is %5.1f',SqrArea,SqrPerimeter)
-% 
-% % Equilateral Triangle
-%     case 3
-%         TriSide = input('What is the desired side length of the equilateral triangle?');
-%     
-%         TriArea = (sqrt(3)/4)*(TriSide^2);
-%         TriPerimeter = TriSide*3;
-%     
-%         fprintf('The area of your equilateral triangle is %5.1f.\nThe perimiter of your equilateral triangle is %5.1f',TriArea,TriPerimeter)
-% 
-% % Circle
-%     case 4
-%         CirRadius = input('What is the radius of the circle?');
-%     
-%         CirArea = pi*CirRadius^2;
-%         CirPerimeter = 2*pi*CirRadius;
-%     
-%         fprintf('The area of your circle is %5.1f.\nThe circumference of your circle is %5.1f',CirArea,CirPerimeter)
-% 
-% % Invalid Shape
-%     otherwise
-%         disp('That is not a valid shape')
-% end
+% Input
+
+Shape = input("Input the number of the shape you want to calculate the are for:\n\n1. Rectangle\n2. Square\n3. Equilateral Triangle\n4. Circle");
+
+switch Shape
+% Rectangle
+    case 1
+        RecLength = input('What is the desired length of the rectangle?');
+        RecWidth = input('What is the desired width of the rectangle?');
+    
+        RecArea = RecWidth*RecLength;
+        RecPerimeter = 2*(RecLength+RecWidth);
+    
+        fprintf('The area of your rectangle is %5.1f.\nThe perimiter of your rectangle is %5.1f',RecArea,RecPerimeter)
+    
+% Square
+    case 2
+        SqrSide = input('What is the desired side length of the square?');
+    
+        SqrArea = SqrSide^2;
+        SqrPerimeter = SqrSide*4;
+    
+        fprintf('The area of your square is %5.1f.\nThe perimiter of your square is %5.1f',SqrArea,SqrPerimeter)
+
+% Equilateral Triangle
+    case 3
+        TriSide = input('What is the desired side length of the equilateral triangle?');
+    
+        TriArea = (sqrt(3)/4)*(TriSide^2);
+        TriPerimeter = TriSide*3;
+    
+        fprintf('The area of your equilateral triangle is %5.1f.\nThe perimiter of your equilateral triangle is %5.1f',TriArea,TriPerimeter)
+
+% Circle
+    case 4
+        CirRadius = input('What is the radius of the circle?');
+    
+        CirArea = pi*CirRadius^2;
+        CirPerimeter = 2*pi*CirRadius;
+    
+        fprintf('The area of your circle is %5.1f.\nThe circumference of your circle is %5.1f',CirArea,CirPerimeter)
+
+% Invalid Shape
+    otherwise
+        disp('That is not a valid shape')
+end
 
