@@ -36,8 +36,7 @@
 1. The if and switch Structures
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/The_If_And_Switch_Structures.m)
 2. for Loops
-    1. [Code]()
-    2. [Variables]()
+    1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/for_loops.m)
 3. while Loops
     1. [Code]()
     2. [Variables]()
