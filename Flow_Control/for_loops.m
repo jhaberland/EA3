@@ -86,7 +86,7 @@
 %   2. Make a matrix of the column and row indexes
 %   3. Make a matrix that is the square of the row index and the square
 %   root of the column index.
-%   4. Neatly output the area and perimeter.
+%   4. Neatly output the first 10 rows and 8 columns.
 %
 %   Variables:
 %       nRow: The number of rows in the matrix
