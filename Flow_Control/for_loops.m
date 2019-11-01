@@ -99,6 +99,7 @@
 %                       none
 % ------------------------------------------------------------------------
 
+clear;
 nRow = input('How many rows do you want in the matrix?');
 nColumn = input('How many columns do you want in the matrix?');
 
@@ -157,6 +158,7 @@ end
 %                       none
 % ------------------------------------------------------------------------
 
+clear;
 nRow = input('How many rows do you want in the matrix?');
 nColumn = input('How many columns do you want in the matrix?');
 n = input('Enter a random integer value that is greater than one:');
