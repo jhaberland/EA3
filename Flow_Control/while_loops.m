@@ -41,7 +41,8 @@ fprintf('The value of x is %2.0f, and it took %3.0f iterations',x,count)
 %   Start Date: Nov. 1, 2019
 %   Last Revised On: Nov. 1, 2019
 %
-%   Purpose: Calculate a matrix based on the users input.
+%   Purpose: Calculate the square root of any using Newton's square root
+%   formula, and checking that it is within given tolerances.
 %
 %   Psuedocode:
 %   1. Take user inputs for N, A, and tol.
