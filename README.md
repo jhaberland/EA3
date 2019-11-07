@@ -39,5 +39,5 @@
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/for_loops.m)
 3. while Loops
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/while_loops.m)
-4. Bonus Program
+4. Bonus Projectile Program
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/Bonus_Projectile.m)
