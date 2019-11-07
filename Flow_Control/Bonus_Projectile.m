@@ -5,9 +5,10 @@
 %   Ms. Harris
 %
 %   Start Date: Nov. 1, 2019
-%   Last Revised On: Nov. 6, 2019
+%   Last Revised On: Nov. 7, 2019
 %
-%   Purpose: Calculate a matrix based on the users input.
+%   Purpose: Calculate the vertical position for an object at multiple
+%   different incriments between the inital and final launch angle.
 %
 %   Psuedocode:
 %   1. Take the inputs for:
@@ -28,7 +29,30 @@
 %   3. Make a plot with the vertical position vs. time for each launch angle on the same axes.
 %
 %   Variables:
+%       LA: This is the launch angle
+%       FA: This is the final launch angle
+%       AI: This is the increments the angles will be tested in
+%       LS: This is the launch speed
 %       
+%       Avec0: This is a verctor with the ranges of angles to be tested
+%       count: This is the number of different angles that is going to be
+%       tested
+%       Avecstr: This is the vector of each angle as a seperate string
+%       
+%       Avec: This is a verctor with the ranges of angles to be tested
+%       IHV: This is the initial velcocity in the x direction
+%       IVV: This is the initial velocity in the y direction
+%       underSQRT: This is the number under the sqaure root when calculating
+%           time with the qudaritc formula
+%       tAir: This is the amount of time the object is in the air
+%       tAirVec: This is the vector with all the time valuces between 0 and
+%           tAir, so it is possible to graph
+%       HP: This is the total horizontal distance traveled
+%       VPE: This is the vertical position equation
+%       HPE: This is the horizontal position equation
+%       VVE: This is the vertical velocity equation
+%       
+%       ldg: This is the variable that stores the legend
 %
 %   Functions Called: (beyond built-in function)
 %                       none
@@ -43,7 +67,7 @@ LS = input('Input the launch speed (in meters/sec).');
 
 Avec0 = LA:AI:FA;
 for count = 1:length(Avec0)
-Avecstr{count} = num2str(Avec0(count));
+AvecStr{count} = num2str(Avec0(count));
 end
 
 for Avec = LA:AI:FA
@@ -83,6 +107,6 @@ title(sprintf('Vertical Position vs. Time\nLaunch Speed = %5.2f m/s',LS),"FontSi
 hold on;
 end
 
-ylim([0 (max(VPE)+.1)])
-lgd = legend(Avecstr);
+ylim([0 (max(VPE)+1)])
+lgd = legend(AvecStr);
 lgd.Title.String = 'Angle in Degrees';
