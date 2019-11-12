@@ -48,3 +48,10 @@
     2. [strcount](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_strcount.m)
     3. [Newtsqrt](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_Newtsqrt.m)
     4. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions.zip)
+2. Error Trapping and Handling
+    1. [randmat]()
+    2. [strcount]()
+    3. [Newtsqrt]()
+    4. [Zip File]()
+3. Optional Arguments Function
+    1. [Code]()
