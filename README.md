@@ -41,3 +41,10 @@
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/while_loops.m)
 4. Bonus Projectile Program
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Flow_Control/Bonus_Projectile.m)
+
+## User-Defined Functions
+1. Creating and Commenting Functions
+    1. [randmat](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_randmat.m)
+    2. [strcount](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_strcount.m)
+    3. [Newtsqrt](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_Newtsqrt.m)
+    4. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions.zip)
