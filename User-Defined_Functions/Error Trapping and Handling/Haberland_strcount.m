@@ -37,7 +37,7 @@ function  nchar = Haberland_strcount(inString, chartype)
     % Error Trapping
     
     % Input Data Types
-    if ischar(inString) ~= 1 || ischar(chartype) ~= 1
+    if ischar(inString) ~= 1
         error('Your input string must be a string.')
     end
     
@@ -46,7 +46,7 @@ function  nchar = Haberland_strcount(inString, chartype)
     end
     
     % Input Property
-    if sum(strcmp(chartype,['alpha','digit','lower','punct','upper','wspace'])) ~= 1
+    if sum(strcmp(chartype,{'alpha','digit','lower','punct','upper','wspace'})) ~= 1
         error('Please input a valid string property')
     end
     
