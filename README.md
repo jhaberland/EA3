@@ -44,14 +44,14 @@
 
 ## User-Defined Functions
 1. Creating and Commenting Functions
-    1. [randmat](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_randmat.m)
-    2. [strcount](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_strcount.m)
-    3. [Newtsqrt](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_Newtsqrt.m)
-    4. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions.zip)
+    1. [randmat](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions/Haberland_randmat.m)
+    2. [strcount](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions/Haberland_strcount.m)
+    3. [Newtsqrt](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions/Haberland_Newtsqrt.m)
+    4. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Creating%20and%20Commenting%20Functions/Creating%20and%20Commenting%20Functions.zip)
 2. Error Trapping and Handling
-    1. [randmat]()
-    2. [strcount]()
-    3. [Newtsqrt]()
-    4. [Zip File]()
+    1. [randmat](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Error%20Trapping%20and%20Handling/Haberland_randmat.m)
+    2. [strcount](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Error%20Trapping%20and%20Handling/Haberland_strcount.m)
+    3. [Newtsqrt](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Error%20Trapping%20and%20Handling/Haberland_Newtsqrt.m)
+    4. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Error%20Trapping%20and%20Handling/Error%20Trapping%20and%20Handling.zip)
 3. Optional Arguments Function
     1. [Code]()
