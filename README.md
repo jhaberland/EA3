@@ -54,4 +54,4 @@
     3. [Newtsqrt](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Error%20Trapping%20and%20Handling/Haberland_Newtsqrt.m)
     4. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Error%20Trapping%20and%20Handling/Error%20Trapping%20and%20Handling.zip)
 3. Optional Arguments Function
-    1. [Code]()
+    1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_strflex.m)
