@@ -32,6 +32,9 @@ function  varargout = Haberland_strflex(inString, varargin)
     
     % Initial Process
     varargin = lower(varargin);
+    optargin = size(varargin,2);
+    narginchk(2,7)
+    nargoutchk(0,6)
     
     
     % Error Trapping
@@ -45,10 +48,12 @@ function  varargout = Haberland_strflex(inString, varargin)
         error('Your input for the data type must be a string.')
     end
     
-    % Input Property
-    narginchk(2,7)
-    nargoutchk(0,6)
-    optargin = size(varargin,2);
+    for i = 1:optargin
+        if sum(strcmp(varargin{i},{'alpha','digit','lower','punct','upper','wspace'})) ~= 1
+            error('Please input a valid string property')
+        end
+    end
+    
     
     % Calculations for output arguments
     for i = 1:optargin
