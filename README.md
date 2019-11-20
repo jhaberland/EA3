@@ -57,3 +57,7 @@
     1. [Code](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_strflex.m)
 
 ## Beam Deflection (Groups)
+1. Beam Deflection Project (Part 1)
+    1. [Code]()
+2. Beam Deflection Project (Part 2)
+    1. [Code]()
