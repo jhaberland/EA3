@@ -56,8 +56,12 @@
 3. Optional Arguments Function
     1. [strflex](https://github.com/jhaberland/Engineering-Academy-3/blob/master/User-Defined_Functions/Haberland_strflex.m)
 
-## Beam Deflection (Groups)
+## Beam Deflection (Devyn, James, Sophia)
 1. Beam Deflection Project (Part 1)
-    1. [Code]()
+    1. [Beam_Deflection_Script](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Beam_Deflection_Script.m)
+    2. [Deflection_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Deflection_Function.m)
+    3. [Elasticity_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Elasticity_Function.m)
+    4. [Moment_Of_Inertia_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Moment_Of_Inertia_Function.m)
+    5. [Plot_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Plot_Function.m)
+    6. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Beam_Deflection_Project_Part_1.zip)
 2. Beam Deflection Project (Part 2)
-    1. [Code]()
