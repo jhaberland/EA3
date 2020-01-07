@@ -1,4 +1,6 @@
 # MATLAB
+## Semester Exam
+1. [Haberland_estimatePi](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Semester_Exam/Haberland_estimatePi.m)
 ## Beam Deflection (Devyn, James, Sophia)
 1. Beam Deflection Project (Part 1)
     1. [Beam_Deflection_Script](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Beam_Deflection_Script.m)
