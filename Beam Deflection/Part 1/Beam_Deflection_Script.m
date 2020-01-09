@@ -15,9 +15,10 @@
 %       a. Moment of Inertia
 %           1) b = base of the beam (in inches)
 %           2) h = height of the beam (in inches)
-%           3) t = time in take to deflect beam (in seconds)
-%           4) SupportType = type of beam 
-%              a) Rectangle, Hollow Rectangle, T-Beam, I-Beam
+%           3) SupportType = type of beam 
+%              a) Rectangle, Window, T-Beam, I-Beam
+%           4) t = thickness of the beam (in inches)
+%              a) Only applicable if winow, t-beam, or i-beam
 %       b. Elasticity
 %           1) Beam = material used in beam 
 %              a) aluminum, brass, chromium, copper, iron, lead, steel, tin, titanium, zinc
@@ -46,20 +47,42 @@ clc,clear
 
 % Moment of Inertia:
 
-    % Inputs (base, height, time, length, Beam Type)
-    prompt = {'Enter base of the beam (in inches):','Enter the height of the beam (in inches):','Enter the time it takes to deflect the beam (in seconds):','Enter the length of the beam (in inches):'};
+    % Inputs and Variables (base, height, length)
+    prompt = {'Enter base of the beam (in inches):','Enter the height of the beam (in inches):','Enter the length of the beam (in inches):'};
     dlgtitle = 'Input';
     dims = [1 35];
     answer = inputdlg(prompt,dlgtitle,dims);
     b = str2double(answer{1});
     h = str2double(answer{2});
-    t = str2double(answer{3});
-    l = str2double(answer{4});
+    l = str2double(answer{3});
     
-    Beam = listdlg('PromptString', 'Select a type of beam:', 'SelectionMode', 'single', 'ListString', {'Rectangle', 'Hollow Rectangle', 'T-Beam', 'I-Beam'}, 'Name', 'Beam Type', 'ListSize', [200 100]);%gives a list of beam choices to test
+    % Type of beam
+    Beam = listdlg('PromptString', 'Select a type of beam:', 'SelectionMode', 'single', 'ListString', {'Rectangle', 'Window', 'T-Beam', 'I-Beam'}, 'Name', 'Beam Type', 'ListSize', [200 100]);
 
-        % Function
-        MOI = Moment_Of_Inertia_Function(b, h, t, Beam);
+    % Thickness (if not rectangle case)
+    switch Beam            
+        case 2
+            prompt = {'Enter the thickness of the beam (in inches):'};
+            dlgtitle = 'Thickness';
+            dims = [1 35];
+            answer = inputdlg(prompt,dlgtitle,dims);
+            t = str2double(answer{1});
+        case 3
+            prompt = {'Enter the thickness of the beam (in inches):'};
+            dlgtitle = 'Thickness';
+            dims = [1 35];
+            answer = inputdlg(prompt,dlgtitle,dims);
+            t = str2double(answer{1});
+        case 4
+            prompt = {'Enter the thickness of the beam (in inches):'};
+            dlgtitle = 'Thickness';
+            dims = [1 35];
+            answer = inputdlg(prompt,dlgtitle,dims);
+            t = str2double(answer{1});
+    end
+    
+    % Function
+    MOI = Moment_Of_Inertia_Function(b, h, t, Beam);
 
 % Elasticity
 
@@ -75,25 +98,29 @@ clc,clear
     Support = listdlg('PromptString', 'Select a support type for the beam:', 'SelectionMode', 'single', 'ListString', {'Cantilevered', 'Simply Supported'}, 'Name', 'Beam Type', 'ListSize', [200 100]);
     Load = listdlg('PromptString', 'Select the type of load being applied:', 'SelectionMode', 'single', 'ListString', {'Point', 'Uniform'}, 'Name', 'Load Type', 'ListSize', [200 100]);
     
+    % Force Input
     prompt = {'Enter the force being applied to the beam (in lbs)'};
     dlgtitle = 'Input';
     dims = [1 35];
     answer = inputdlg(prompt,dlgtitle,dims);
     F = str2double(answer{1});
     
-    % Point of load (if point load)
-        if Load == 1
+    % Point where load is applied
+    switch Load
+        % Point load
+        case 1
             prompt = {'Enter the distance on the beam where the force is being applied (in inches)'};
             dlgtitle = 'Input';
             dims = [1 35];
             answer = inputdlg(prompt,dlgtitle,dims);
             a = str2double(answer{1});
-        else 
+        % Uniform load
+        case 2
             a = 0;
-        end
+    end
     
     % Function
-        [Deflection, x] = Deflection_Function(Support, Load, F, Elactisity, MOI, l, a);
+    [Deflection, x] = Deflection_Function(Support, Load, F, Elactisity, MOI, l, a);
 
 % Plot and Output
 
