@@ -2,7 +2,7 @@
 ## Semester Exam
 1. Exam Function
     1. [Haberland_estimatePi](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Semester_Exam/Haberland_estimatePi.m)
-## Beam Deflection (Devyn, James, Sophia)
+## Beam Deflection (James, Sophia)
 1. Beam Deflection Project (Part 1)
     1. [Beam_Deflection_Script](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Beam_Deflection_Script.m)
     2. [Deflection_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Deflection_Function.m)
@@ -11,14 +11,12 @@
     5. [Plot_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Plot_Function.m)
     6. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%201/Beam_Deflection_Project_Part_1.zip)
 2. Beam Deflection Project (Part 2)
-<!---
-    1. [Beam_Deflection_Script]()
-    2. [Deflection_Function]()
-    3. [Elasticity_Function]()
-    4. [Moment_Of_Inertia_Function]()
-    5. [Plot_Function]()
-    6. [Zip File]()
--->
+    1. [Beam_Deflection_Script](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/Beam_Deflection_Script.m)
+    2. [Deflection_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/Deflection_Function.m)
+    3. [Elasticity_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/Elasticity_Function.m)
+    4. [Moment_Of_Inertia_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/Moment_Of_Inertia_Function.m)
+    5. [Plot_Function](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/Plot_Function.m)
+    6. [Zip File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/Beam_Deflection_Project_Part_2.zip)
 3. mcode package made by [Florian Knorn](https://www.florian-knorn.com/)
     1. [Download Link](https://drive.google.com/uc?export=download&id=1kkKk3d4tpKAkkAjt-lh0kwzAGJTJG4md)
     2. [Viewable File](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Beam%20Deflection/Part%202/mcode.sty)
