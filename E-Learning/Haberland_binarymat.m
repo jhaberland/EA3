@@ -61,7 +61,7 @@ function B = Haberland_binarymat(A, N)
     end
    
     
-    % Created Empty B Matrix
+    % Creates Empty B Matrix
     B = zeros(Row, Column);
     
     % Ones and Zeros Calculation
