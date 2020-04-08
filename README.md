@@ -1,7 +1,7 @@
 # MATLAB
 ## E-Learning MATLAB Unit
 1. Programming Assignment #1
-    1. [Haberland_binarymat.m]()
+    1. [Haberland_binarymat.m](https://github.com/jhaberland/Engineering-Academy-3/blob/master/E-Learning/Haberland_binarymat.m)
 ## Semester Exam
 1. Exam Function
     1. [Haberland_estimatePi](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Semester_Exam/Haberland_estimatePi.m)
