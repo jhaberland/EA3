@@ -4,6 +4,8 @@
     1. [Haberland_binarymat.m](https://github.com/jhaberland/Engineering-Academy-3/blob/master/E-Learning/Haberland_binarymat.m)
 2. Programming Assignment #2
     1. [Haberland_multiples.m](https://github.com/jhaberland/Engineering-Academy-3/blob/master/E-Learning/Haberland_multiples.m)
+3. Programming Assignment #3
+    1. [Haberland_density.m](https://github.com/jhaberland/Engineering-Academy-3/blob/master/E-Learning/Haberland_density.m)
 ## Semester Exam
 1. Exam Function
     1. [Haberland_estimatePi](https://github.com/jhaberland/Engineering-Academy-3/blob/master/Semester_Exam/Haberland_estimatePi.m)
