@@ -58,28 +58,31 @@ function [volume, weight] = Haberland_density(material, shape, dim1, dim2, dim3)
     end
     
     % Dimensions
-    if ~isnumeric(dim1)
-        error('The input for dim1 must be a number.')
-    end
+    if strcmp(shape, 'sphere') == 1 || strcmp(shape, 'cube') == 1
+        if ~isnumeric(dim1)
+            error('The input for dim1 must be a number.')
+        end
     
-    if ~isnumeric(dim2)
-        error('The input for dim2 must be a number.')
-    end
+        if dim1 <= 0
+            error('The input for dim1 cannot be 0 or a negative number.')
+        end
     
-    if ~isnumeric(dim3)
-        error('The input for dim3 must be a number.')
-    end
+    elseif strcmp(shape, 'rectangular slab') == 1
+        if ~isnumeric(dim2)
+            error('The input for dim2 must be a number.')
+        end
     
-    if dim1 <= 0
-        error('The input for dim1 cannot be 0 or a negative number.')
-    end
+        if dim2 <= 0
+            error('The input for dim2 cannot be 0 or a negative number.')
+        end
     
-    if dim2 <= 0
-        error('The input for dim2 cannot be 0 or a negative number.')
-    end
+        if ~isnumeric(dim3)
+            error('The input for dim3 must be a number.')
+        end
     
-    if dim3 <= 0
-        error('The input for dim3 cannot be 0 or a negative number.')
+        if dim3 <= 0
+            error('The input for dim3 cannot be 0 or a negative number.')
+        end
     end
     
     % Desnsity (kg/m^3)
